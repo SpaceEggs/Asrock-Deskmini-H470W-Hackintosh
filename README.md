@@ -1,6 +1,6 @@
 # Asrock-Deskmini-H470W-Hackintosh
 
-
+![](https://raw.githubusercontent.com/SpaceEggs/Asrock-Deskmini-H470W-Hackintosh/main/Pics/AboutMac.png?token=GHSAT0AAAAAABQZQTV2FAZDIGUSL4RKHQDUYPKMWAA)
 
 ## 硬件
 
@@ -41,6 +41,10 @@
 
 制作完 U 盘后，将 EFI 目录放入 U 盘中。
 
+U 盘结构应该如下：
+
+![](https://raw.githubusercontent.com/SpaceEggs/Asrock-Deskmini-H470W-Hackintosh/main/Pics/USBstructure.png?token=GHSAT0AAAAAABQZQTV2BPZ4ZGDWPKBV4VXUYPKMXDA)
+
 打开 GenSMBIOS（Mac 运行 command 文件，windows 运行 bat 文件），先输入 1，再输入 3。根据不同 CPU 型号输入不同型号可得到序列号：
 
 | SMBIOS   | Hardware       |
@@ -67,3 +71,9 @@
 - Fast Boot
 - Secure Boot
 - Intel  Platform Trust
+
+## 已知问题
+
+- HDMI 最高只支持 3840x2160@30fps 输出。尽量用 dp 信号。
+- 接双屏情况下，需要先使用一个显示器开机，进入系统后再接第二个显示器。
+
