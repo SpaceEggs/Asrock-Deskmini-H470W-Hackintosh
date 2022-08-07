@@ -1,4 +1,4 @@
-# Asrock-Deskmini-H470W-Hackintosh
+# Asrock Deskmini H470W Hackintosh
 
 ![](./Pics/AboutMac.png)
 
