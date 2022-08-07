@@ -1,6 +1,6 @@
 # Asrock-Deskmini-H470W-Hackintosh
 
-![](https://raw.githubusercontent.com/SpaceEggs/Asrock-Deskmini-H470W-Hackintosh/main/Pics/AboutMac.png?token=GHSAT0AAAAAABQZQTV2FAZDIGUSL4RKHQDUYPKMWAA)
+![](./Pics/AboutMac.png)
 
 ## 硬件
 
@@ -14,17 +14,17 @@
 
 | Name             | Version             |
 | ---------------- | ------------------- |
-| OS               | macOS Monterey 12.1 |
-| OpenCore         | 0.7.5               |
-| AirportBrcmFixup | 2.1.3               |
-| AppleALC         | 1.6.8               |
-| BrcmPatchRAM     | 2.6.1               |
-| FeatureUnlock    | 1.0.5               |
+| OS               | macOS Monterey 12.5 |
+| OpenCore         | 0.8.3               |
+| AirportBrcmFixup | 2.1.6               |
+| AppleALC         | 1.7.4               |
+| BrcmPatchRAM     | 2.6.3               |
+| FeatureUnlock    | 1.0.9               |
 | IntelMausi       | 1.0.7               |
-| Lilu             | 1.5.9               |
-| NVMeFix          | 1.0.9               |
-| VirtualSMC       | 1.2.8               |
-| WhateverGreen    | 1.5.6               |
+| Lilu             | 1.6.2               |
+| NVMeFix          | 1.1.0               |
+| VirtualSMC       | 1.3.0               |
+| WhateverGreen    | 1.6.1               |
 
 ## 使用指南
 
@@ -43,16 +43,18 @@
 
 U 盘结构应该如下：
 
-![](https://raw.githubusercontent.com/SpaceEggs/Asrock-Deskmini-H470W-Hackintosh/main/Pics/USBstructure.png?token=GHSAT0AAAAAABQZQTV2BPZ4ZGDWPKBV4VXUYPKMXDA)
+![](./Pics/USBstructure.png)
 
 打开 GenSMBIOS（Mac 运行 command 文件，windows 运行 bat 文件），先输入 1，再输入 3。根据不同 CPU 型号输入不同型号可得到序列号：
 
-| SMBIOS   | Hardware       |
-| -------- | -------------- |
-| iMac20,1 | 八核及以下 CPU |
-| iMac20,2 | 十核 CPU       |
+| SMBIOS   | Hardware                              |
+| -------- | ------------------------------------- |
+| iMac20,1 | i7-10700K 及以下 CPU（小于等于 8 核） |
+| iMac20,2 | i9-10850K 及以上 CPU（10 核）         |
 
 得到序列号后，使用 ProperTree 打开 `/EFI/OC` 目录下的 config.plist 文件。将得到的序列号填入 PlatformInfo -> Generic 下的对应字段：
+
+![](./Pics/PlatformInfo.png)
 
 | Parameter    | Value              |
 | ------------ | ------------------ |
