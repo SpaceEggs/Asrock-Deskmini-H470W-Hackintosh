@@ -1,8 +1,8 @@
 # Asrock Deskmini H470W Hackintosh
 
-![](./Pics/AboutMac.png)
+![](./Pics/AboutMac_Ventura.png)
 
-## 硬件
+## Hardware
 
 - CPU：Intel i7-10700
 - RAM：Samsung DDR4 SO-DIMM 2933Mhz 16Gb x2
@@ -10,21 +10,21 @@
 - WiFi：BCM94360CS2
 - Cooling：Thermalright AXP90-X47
 
-## 软件
+## Software
 
-| Name             | Version             |
-| ---------------- | ------------------- |
-| OS               | macOS Monterey 12.5 |
-| OpenCore         | 0.8.3               |
-| AirportBrcmFixup | 2.1.6               |
-| AppleALC         | 1.7.4               |
-| BrcmPatchRAM     | 2.6.3               |
-| FeatureUnlock    | 1.0.9               |
-| IntelMausi       | 1.0.7               |
-| Lilu             | 1.6.2               |
-| NVMeFix          | 1.1.0               |
-| VirtualSMC       | 1.3.0               |
-| WhateverGreen    | 1.6.1               |
+| Name             | Version            |
+| ---------------- | ------------------ |
+| OS               | macOS Ventura 13.0 |
+| OpenCore         | 0.8.5              |
+| AirportBrcmFixup | 2.1.6              |
+| AppleALC         | 1.7.5              |
+| BrcmPatchRAM     | 2.6.4              |
+| FeatureUnlock    | 1.0.9              |
+| IntelMausi       | 1.0.7              |
+| Lilu             | 1.6.2              |
+| NVMeFix          | 1.1.0              |
+| VirtualSMC       | 1.3.0              |
+| WhateverGreen    | 1.6.1              |
 
 ## 使用指南
 
