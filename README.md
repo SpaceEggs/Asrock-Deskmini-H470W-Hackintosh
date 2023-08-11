@@ -1,5 +1,7 @@
 # Asrock Deskmini H470W Hackintosh
 
+> 下次更新会支持 macOS 14
+
 ![](./Pics/AboutMac_Ventura.png)
 
 ## Hardware
@@ -14,17 +16,17 @@
 
 | Name             | Version            |
 | ---------------- | ------------------ |
-| OS               | macOS Ventura 13.0 |
-| OpenCore         | 0.8.5              |
-| AirportBrcmFixup | 2.1.6              |
-| AppleALC         | 1.7.5              |
-| BrcmPatchRAM     | 2.6.4              |
+| OS               | macOS Ventura 13.5 |
+| OpenCore         | 0.9.1              |
+| AirportBrcmFixup | 2.1.7              |
+| AppleALC         | 1.8.3              |
+| BrcmPatchRAM     | 2.6.7              |
 | FeatureUnlock    | 1.0.9              |
 | IntelMausi       | 1.0.7              |
-| Lilu             | 1.6.2              |
+| Lilu             | 1.6.6              |
 | NVMeFix          | 1.1.0              |
-| VirtualSMC       | 1.3.0              |
-| WhateverGreen    | 1.6.1              |
+| VirtualSMC       | 1.3.2              |
+| WhateverGreen    | 1.6.5              |
 
 ## 使用指南
 
